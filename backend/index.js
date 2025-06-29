@@ -13,7 +13,7 @@ app.use(
   cors({
     headers: ["Content-Type", "Authorization"],
     exposedHeaders: ["Content-Type", "Authorization"],
-    origin: ["https://photoeventouch.vercel.app", "http://localhost:5173"],
+    origin: ["https://photoldpar.vercel.app/", "http://localhost:5173"],
     methods: ["GET", "POST"],
     credentials: true,
   })
